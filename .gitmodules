@@ -1,0 +1,3 @@
+[submodule "media-stream-library-js"]
+	path = media-stream-library-js
+	url = https://github.com/jangsoopark/media-stream-library-js.git

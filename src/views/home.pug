@@ -1,0 +1,13 @@
+doctype html
+
+html(lang='en')
+    head
+        title WebSocket Test
+        script(src="/public/js/media-stream-player.min.js")
+    body
+        h1 asdf 
+        #root
+        media-stream-player(
+            hostname="wisestream.iptime.org:20554"
+        )
+        script(type="module" src="/public/js/client.js")

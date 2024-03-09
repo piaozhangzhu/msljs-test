@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Websocket Test</title>
+        <script type="text/javascript" src="/public/js/media-stream-player.min.js"></script>
+        <style>
+            #root {
+                height: 98vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <media-stream-player
+                hostname="wisestream.iptime.org:20080"
+                format="RTP_H264"
+                resolution="1920x1080"
+                camera="1"
+                fps="30"
+                autoplay
+            ></media-stream-player>
+        </div>
+    </body>
+</html>     
