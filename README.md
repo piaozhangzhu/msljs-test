@@ -1,7 +1,7 @@
 # Media Stream Library JS Test
 
 ## Build media-stream-library-js
->> 가능하면 WSL 같은거 사용하지 말고 그냥 생 우분투에서 ...
+>> Tested only on UBUNTU
 
 ```bash
 
